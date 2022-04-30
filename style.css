@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+	width: 100%;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+#nameSubmit{
+	height: 40px;
+	cursor: pointer;
+	font-size:30px; 
+	border: 1px solid #aaff00;
+	background: black; 
+	color: #aaff00;
+	font-family: monospace; 
+	font-weight: bold;
+	position: absolute; 
+	width: 7%;
+	margin-left: 55%;
+	text-align: center;
+}
+
+#nameInput{
+	height: 40px;
+	font-size:30px; 
+	border: 1px solid #aaff00;
+	background: black; 
+	color: #aaff00;
+	font-family: monospace; 
+	font-weight: bold;
+	position: absolute; 
+	width: 18%;
+	margin-left: 37%;
+	text-align: center;
+}
+
+#enter{
+	width: 25%;
+	margin: 10px;
+	margin-left: 37%; 
+	display: block;
+}
+
+@media screen and (max-width: 1200px){
+
+	#nameSubmit{		
+		margin-left: 63%;		
+	}
+
+	#enter,
+	#nameInput{
+		width: 40%;
+		margin-left: 30%;
+	}
+
+}
+
+@media screen and (max-width: 800px){
+
+	#nameSubmit{
+		margin-left: 70%;
+		width: 12%;
+	}
+
+	#enter,
+	#nameInput{
+		width: 60%;
+		margin-left: 20%;
+	}
+
+}
+
+#scoreTable{
+	display: table;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+	color: #009900;
+}
+
+#scoreRow{
+	display: table-row;
+	width: 100%;
+	height: 100%;
+}
+
+#scoreCell{
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 2em;
+}
+
+#scoreButton{
+	margin: 20px;
+	background-color: #009900;
+	color: black;
+	border: 3px double #009900;
+	padding: 5px 20px;
+	cursor: pointer;
+}
